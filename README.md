@@ -1,6 +1,8 @@
-## Interswitch Assessment
+## Interswitch Frontend Assessment
 
-A simple app that receives data via several input fields and displays the data on a table. The application is hosted online and can be viewed here: https://the-switch.vercel.app/
+[![Build Status](https://travis-ci.com/lumie31/The-Switch.svg?branch=main)](https://travis-ci.com/lumie31/The-Switch)
+
+A simple app that receives data via several input fields and displays the data on a table. The application is hosted online and can be viewed here: https://lumie31.github.io/The-Switch/
 
 ### Tools used 
 - React (Next.js)
@@ -8,7 +10,7 @@ A simple app that receives data via several input fields and displays the data o
 - Redux
 - MUI Datatable
 - Sweetalert
-- Vercel
+- Github pages
 
 ### Functionalities
 - Add users
