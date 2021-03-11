@@ -113,6 +113,7 @@ const DataTable = (props) => {
         let users = [...props.data];
         let newUsers = users.filter((user, i) => i != index);
         props.editUsers(newUsers);
+        props.setFormData("")
         toast({
           position: "top-right",
           description: "User deleted successfully",

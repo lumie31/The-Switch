@@ -159,6 +159,14 @@ const Home = (props) => {
   }
 
   const updateUser = () => {
+    if (
+      !validateName() ||
+      !validateEmail() ||
+      !validatePhone() ||
+      !validateCity()
+    ) {
+      return;
+    }
     let index = editableIndex;
 
     let users = [...props.state.users];
